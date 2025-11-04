@@ -24,7 +24,7 @@ const TabIcon = ({ focused, icon, title }: any) => {
   }
 
   return (
-    <View className="mt-2 justify-center items-center">
+    <View className="mt-5 justify-center items-center">
       <Image
         source={icon}
         className="size-5"
@@ -52,10 +52,12 @@ export default function _Layout() {
           backgroundColor: "#0f0d23",
           borderTopWidth: 0,
           borderRadius: 50,
-          marginHorizontal: 20,
+          marginHorizontal: 10,
           marginBottom: 36,
+          
+          // padding:10,
           position: 'absolute',
-          height: 52,
+          height: 50,
           overflow: "hidden",
           borderWidth: 1,
           borderColor: '#0f0d23'
